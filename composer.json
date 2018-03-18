@@ -1,19 +1,26 @@
 {
-    "name": "pandaac/contracts",
+    "name": "openaac/contracts",
     "type": "library",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/openaac/core/issues"
+    },
     "authors": [
         {
             "name": "Christopher Eklund",
             "email": "eklundchristopher@gmail.com"
+        },
+        {
+            "name": "Panagiotis Pagoulatos",
+            "email": "phpanos@gmail.com"
         }
     ],
     "require": {
-        "pandaac/core": "self.version"
+        "openaac/core": "self.version"
     },
     "autoload": {
         "psr-4": {
-            "pandaac\\Contracts\\": "src/"
+            "OpenAAC\\Contracts\\": "src/"
         }
     }
 }

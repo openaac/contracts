@@ -1,6 +1,6 @@
 <?php
 
-namespace pandaac\Contracts;
+namespace OpenAAC\Contracts;
 
 interface Account
 {
